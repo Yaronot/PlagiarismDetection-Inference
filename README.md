@@ -11,4 +11,5 @@ STEP 2 - INFERENCE 2 ARTICLES
 STEP 3 - SAVE RESULTS AND EXIT (csv, json, txt)
 
 ~/backup_and_exit.sh 
+
 exit
