@@ -2,9 +2,13 @@ clone this to your home folder in the HUJI cluster
 
 download best_siamese_bert.pth from release and put in the same directory in the HUJI cluster
 
-STEP 1 - Setting GPU env and GPU node access (NVIDIA L4), caching BERT model
+1. **STEP 1 - Setting GPU env and GPU node access (NVIDIA L4), caching BERT model**:
+   ```bash
+   ~/start_gpu_session.sh"
 
-~/start_gpu_session.sh 
+
+
+
 
 STEP 2 - INFERENCE 2 ARTICLES
 
