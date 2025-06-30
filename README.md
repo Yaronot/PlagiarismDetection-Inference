@@ -6,16 +6,27 @@ download best_siamese_bert.pth from release and put in the same directory in the
    ```bash
    ~/start_gpu_session.sh"
 
+1. **STEP 2 - INFERENCE 2 ARTICLES**:
+   ```bash
+   ./run_plagiarism_analysis.sh --max_articles 2"
+
+1. **STEP 3 - SAVE RESULTS AND EXIT (csv, json, txt)**:
+   ```bash
+   ~/backup_and_exit.sh
+   exit"
 
 
 
 
-STEP 2 - INFERENCE 2 ARTICLES
 
-./run_plagiarism_analysis.sh --max_articles 2
 
-STEP 3 - SAVE RESULTS AND EXIT (csv, json, txt)
 
-~/backup_and_exit.sh 
 
-exit
+
+
+
+
+
+ 
+
+
